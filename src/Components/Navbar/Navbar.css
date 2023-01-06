@@ -1,0 +1,88 @@
+.navbar-container{
+    height: 56px;
+    background: var(--flipkart-lightBlue);
+    color: var(--flipkart-white);
+    position: fixed;
+    width: 100%;
+    z-index:2;
+}
+.navbar{
+    max-width:1248px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    padding:10px 124px 10px 124px;
+}
+.navbar-logo{
+    width: 80px;
+}
+.navbar-search{
+    display: flex;
+    justify-content: space-between;
+    /* margin:0 0 0 0px; */
+    max-width: 444px;
+    width: calc(100% - 540px);
+    background: var(--flipkart-white);
+    border-radius: 2px;
+}
+.searchbtn{
+    height: 36px;
+    width: 44px;
+    border: none;
+    background: var(--flipkart-white);
+    font-size: 20px;
+    padding: 4px 12px 0 8px;
+    color: var(--flipkart-lightBlue);
+    cursor: pointer;
+    
+}
+.navbar-searchbox{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    /* box-shadow: 0px 10px 20px rgba(2, 2, 2,.4); */
+}
+
+.navbar-btn{
+    padding: 5px 40px;
+    height: 32px;
+    background: var(--flipkart-white);
+    color: var(--flipkart-lightBlue);
+    border: none;
+    border: 1px solid #dbdbdb;
+    font-weight:700;
+    border-radius: 2px;
+    cursor: pointer;
+    /* margin: 0 20px; */
+}
+.navbar-bcs{
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.navbar-more{
+    font-size: 13px;
+    position: relative;
+}
+.moredown{
+    position: absolute;
+    top:10%;
+    padding: 0px 2px;
+}
+.navbar-cart{
+    display: flex;
+    align-items: center;
+    margin-left:20px;
+    /* justify-content: center; */
+    cursor: pointer;
+
+}
+
+.cart{
+    font-size: 15px;
+    padding:0px 5px;
+    color: white;
+}
