@@ -1,60 +1,99 @@
-.Cart{
-    padding:90px 50px;
-    width: 100%;
-    height: 100vh;
-    background: rgb(240, 238, 238);
+.Cart {
+  padding: 90px 50px;
+  width: 100%;
+  height: 100vh;
+  background: rgb(240, 238, 238);
 }
-.Cart-tabs{
-    background: white;
-    width: 100%;
-    margin: 0 auto;
-    /* padding: 10px; */
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+.Cart-tabs {
+  background: white;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
-.flipkart,.grocery{
-    width: 30%;
-    padding: 20px 10px;
-    cursor: pointer;
+.flipkart,
+.grocery {
+  width: 30%;
+  padding: 20px 10px;
+  cursor: pointer;
 }
-.active{
-    border-bottom:3px solid rgb(42, 85, 229);
-    color: rgb(42, 85, 229);
-}
-
-.Cart-items{
-    margin-top: 1rem;
-    height: 350px;
-    width: 100%;
-    background: white;
-    padding: 10px 0 36px;
-}
-.CartitemsNull{
-    text-align: center;
-}
-.CartitemsNull-img{
-    width: 200px;
-    height: 200px;   
-    object-fit: contain;
-}
-.CartitemsNull-title{
-    font-size: 18px;
-    padding: 5px 0;
-    font-weight: 400;
-
-}
-.CartitemsNull-des{
-    padding: 10px 0;
-    font-size: 12px;
-}
-.CartitemsNull-btn{
-    height: 40px;
-    width: 15%;
-    border: none;
-    outline: none;
-    background: #fb641b;
-    color: white;
-    cursor: pointer;
+.active {
+  border-bottom: 3px solid rgb(42, 85, 229);
+  color: rgb(42, 85, 229);
 }
 
+.Cart-items {
+  margin-top: 1rem;
+  min-height: 350px;
+  width: 100%;
+  background: white;
+  padding: 10px 0 36px;
+}
+
+.Cart-item {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.Cart-item--left {
+  width: 150px;
+}
+
+.Cart-item--left img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+.Cart-item--right {
+  margin-left: 100px;
+}
+
+.Cart-item--right p {
+  padding-top: 20px;
+}
+
+.Cart-item-button {
+  width: 200px;
+  padding: 18px 8px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 2px;
+  cursor: pointer;
+  background: #fb641b;
+  margin-top: 20px;
+}
+
+.CartitemsNull {
+  text-align: center;
+}
+.CartitemsNull-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.CartitemsNull-title {
+  font-size: 18px;
+  padding: 5px 0;
+  font-weight: 400;
+}
+.CartitemsNull-des {
+  padding: 10px 0;
+  font-size: 12px;
+}
+.CartitemsNull-btn {
+  height: 40px;
+  width: 15%;
+  border: none;
+  outline: none;
+  background: #fb641b;
+  color: white;
+  cursor: pointer;
+}
