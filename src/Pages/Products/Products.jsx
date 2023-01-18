@@ -3,6 +3,7 @@ import ProductDetailCard from "../../Components/ProductDetailCard/ProductDetailC
 import "./Products.css";
 import { ProductsData } from "../../ProductsData";
 import { Link } from "react-router-dom";
+
 const Products = () => {
   return (
     <div className="Products">
