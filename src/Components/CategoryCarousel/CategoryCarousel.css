@@ -1,40 +1,37 @@
-.CategoryCarousel{
-    width: 100%;
-    height: 366px;
-    margin-top:10px;
-    display: flex;
-    box-shadow: 2px 2px 10px rgb(201, 201, 201);
+.CategoryCarousel {
+  width: 100%;
+  height: 366px;
+  margin-top: 10px;
+  display: flex;
+  box-shadow: 2px 2px 10px rgb(201, 201, 201);
 }
-.CategoryCarousel-left{
-    width: 18%;
-    text-align: center;
-    padding:10% 10px 10px 10px;
-    
-    
-
+.CategoryCarousel-left {
+  width: 18%;
+  text-align: center;
+  padding: 10% 10px 10px 10px;
 }
-.CategoryCarousel-title{
-    font-size: 25px;
-    font-weight:300;
-    /* letter-spacing: 1px; */
-    padding-bottom:18px;
-    text-align: center;
+.CategoryCarousel-title {
+  font-size: 25px;
+  font-weight: 300;
+  /* letter-spacing: 1px; */
+  padding-bottom: 18px;
+  text-align: center;
 }
-.CategoryCarousel-btn{
-    background: rgb(32, 81, 245);
-    border: none;
-    outline: none;
-    padding: 8px 20px;
-    color: white;
-    font-weight: 300;
-    border-radius: 2px;
-    border: 2px solid rgb(57, 57, 247);
-    text-transform: uppercase;
-    cursor: pointer;
+.CategoryCarousel-btn {
+  background: rgb(32, 81, 245);
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  color: white;
+  font-weight: 300;
+  border-radius: 2px;
+  border: 2px solid rgb(57, 57, 247);
+  text-transform: uppercase;
+  cursor: pointer;
 }
-.CategoryCarousel-right{
-    background: white;
-    width: calc(100% - 17%);
-    height: 366px;
-    position: relative;
+.CategoryCarousel-right {
+  background: white;
+  width: calc(100% - 17%);
+  height: 366px;
+  position: relative;
 }
